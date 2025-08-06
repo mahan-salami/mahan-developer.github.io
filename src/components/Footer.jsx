@@ -33,7 +33,7 @@ const Footer = () => {
   };
 
   return (
-    <motion.footer id = ""
+    <motion.footer id = "Contact"
       className="bg-gray-900 text-white pt-12 pb-6 mt-12"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -198,3 +198,4 @@ const Footer = () => {
 
 
 export default Footer;
+
